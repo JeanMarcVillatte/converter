@@ -81,7 +81,7 @@ public class converter extends JFrame {
 				int idUnite1=0;
 				int idUnite2=0;
 				if (input.getText().isEmpty()) {
-					errorLabel.setText("erreur");
+					errorLabel.setText("erreur insoutenable");
 				} else {
 					for (int i=0; i<modelJComboBox.length;i++) {
 						if (comboBox.getSelectedItem().toString().equals(modelJComboBox[i])){

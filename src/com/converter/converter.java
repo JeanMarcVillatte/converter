@@ -129,7 +129,7 @@ public class converter extends JFrame {
 		lblNewLabel = new JLabel("");
 		panel_1.add(lblNewLabel);
 		lblNewLabel
-				.setIcon(new ImageIcon("D:\\workspace\\Converter\\index.jpg"));
+				.setIcon(new ImageIcon(converter.class.getResource("/com/converter/index.jpg")));
 
 		resultLabel = new JLabel("");
 		panel_1.add(resultLabel);
